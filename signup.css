@@ -8,7 +8,8 @@ body{
 .box{
     color:  rgb(54, 3, 3);
     font-family: sans-serif;
-    text-align: center;
+    /* text-align: left */
+    padding: 10px;
     border: 1px solid;
     width: 300px;
     border-style: double;
@@ -24,22 +25,25 @@ input{
     padding: 5px 5px 5px 5px;
 }
 #signup{
-    
-    border-radius: 10px;
+    text-align: center;
+    border-radius: 5px;
     background-color: blue;
     color: white;
     padding: 10px 10px 10px 10px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    margin: 0px 0px 20px 160px;
 }
+
 h2{
     padding-top: 40px;
+    margin: 0px 0px 0px 150px;
 }
 h4{
     margin-right: 160px;
 }
 h6{
     text-align: justify;
-    margin: 0px 80px;
+    /* margin: 0px 80px; */
     color: black;
 
 }
@@ -59,4 +63,28 @@ h6{
 .navi a:hover {
     background-color: rgb(240, 177, 177);
     color:rgb(85, 11, 1);
+}
+span{
+    font-size:small;
+}
+span{
+    color: red;
+}
+span > span{
+    color: green;
+}
+span1{
+    color: rgb(179, 4, 4);
+    font-size: x-small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+span2{
+    color:orangered;
+    font-size: x-small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}   
+span3{
+    color: rgb(6, 82, 6);
+    font-size: x-small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

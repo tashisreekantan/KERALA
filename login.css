@@ -9,11 +9,11 @@ body{
     border: 1px solid;
     width: 300px;
     border-style: double;
-    background-image: url('texture3.jpg');
+    background-image: url('texture1.jpg');
     border: 1px solid;
     width: 400px;
     border-radius: 25px;
-    margin: 15px 0px 0px 500px;
+    margin: 15px 0px 0px 400px;
 }
 input{
     border-radius: 5px; 
@@ -62,4 +62,12 @@ h5{
 }
 .last{
     padding-bottom: 25px;
+}
+span{
+    color: red;
+    font-family: monospace;
+}
+span > span{
+    color: green;
+    font-family: monospace;
 }

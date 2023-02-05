@@ -8,20 +8,29 @@
 </head>
 <body>
     <div class="box">
+       
         <h2>Login</h2>
-        <input type="email" name="" id="" placeholder="Email Id"><br><br>
-        <input type="password" name="" id="" placeholder="password"> 
+        <form action="success.html">
+        <label for="email"><input type="email" name="" id="email" onkeyup="validateMail()" placeholder="Email Id"></label><br>
+        <span id="email-error"></span><br><br>
+        <label for="password"><input type="password" name="" id="password" onkeyup="validatePassword()" placeholder="Password"> </label><br>
+        <span id="password-error"></span><br>
+        <button onclick = "return validateForms()" type="submit" id="signup" >Log In</button>
+        </form>
         <h5>Forgot Password?</h5>
-        <br><br>
+        <br>
 
-        <input type="submit" value="LOGIN" id="signup">
+        
         <div class="last">
             <h6>Not have an account?</h6> 
             <a style="color: darkblue;" href="signup.html">SignUp here</a>
         </div>
+        
+  
      </div>
      <div class="navi">
         <a href="index.html" class="button">Back to Home Page</a>
     </div>
+    <script src="login.js"></script>
 </body>
 </html>
